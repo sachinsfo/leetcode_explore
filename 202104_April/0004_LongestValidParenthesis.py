@@ -133,9 +133,9 @@ for _input, expected_output in \
         ]:
     s = Solution()
     index += 1
-    # actual_output = s.longestValidParentheses_BruteForce(_input)
-    # actual_output = s.longestValidParentheses_DP(_input)
-    # actual_output = s.longestValidParentheses_Stack(_input)
+    actual_output = s.longestValidParentheses_BruteForce(_input)
+    actual_output = s.longestValidParentheses_DP(_input)
+    actual_output = s.longestValidParentheses_Stack(_input)
     actual_output = s.longestValidParentheses_TwoPointer(_input)
     assert actual_output == expected_output, "tc{} failed => {}".format(index, actual_output)
 else:
