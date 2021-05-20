@@ -18,6 +18,7 @@ class TreeNode:
 
 class Solution:
     """
+    Bottom-Up DP
     https://www.youtube.com/watch?v=pXG3uE_KqZM
     Time: O(N logN) + O(N * L * L)
     Space: O(NL) or O(N)
@@ -41,6 +42,8 @@ class Solution:
         return res
     
     def topdown_dp(self, words):
+        """
+        """
         wordsPresent = set(words)
         memo = dict()
 
